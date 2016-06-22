@@ -1,3 +1,4 @@
+更多代码请见：https://github.com/xubo245/JNILearning
 
 1.下载：
 https://github.com/xubo245/HelloWorldJNIwithRegisterNatives

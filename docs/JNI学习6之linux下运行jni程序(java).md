@@ -1,4 +1,4 @@
-
+更多代码请见：https://github.com/xubo245/JNILearning
 
 1、创建一个java文件（HelloWorld.java）:
 

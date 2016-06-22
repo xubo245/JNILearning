@@ -1,4 +1,5 @@
-	
+更多代码请见：https://github.com/xubo245/JNILearning
+
 同样的是运行jni-maven项目，window下本地也需要配置特别的环境
    
 由于之前配置过MinGW，gcc成功了，但是找不到make：

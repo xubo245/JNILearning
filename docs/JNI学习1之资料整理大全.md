@@ -1,3 +1,4 @@
+更多代码请见：https://github.com/xubo245/JNILearning
 
 1.书籍：Java核心技术卷二 第十二章本地方法
 
