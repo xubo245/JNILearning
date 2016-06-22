@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/6/22 17:13:23。
+     1>项目“D:\all\vs2013\jni\jniTest\jniTest\jniTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JNITEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\jniTest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JNITEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JNITEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\jniTest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt jniTest.cpp
+         jniTest.cpp
+       Link:
+         C:\Program Files (x86)\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\all\vs2013\jni\jniTest\Debug\jniTest.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\all\vs2013\jni\jniTest\Debug\jniTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\all\vs2013\jni\jniTest\Debug\jniTest.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\jniTest.obj
+         Debug\stdafx.obj
+         jniTest.vcxproj -> D:\all\vs2013\jni\jniTest\Debug\jniTest.dll
+     1>已完成生成项目“D:\all\vs2013\jni\jniTest\jniTest\jniTest.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.89
