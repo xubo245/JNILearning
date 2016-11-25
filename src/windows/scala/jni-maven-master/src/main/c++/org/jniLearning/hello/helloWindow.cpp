@@ -2,8 +2,8 @@
 //
 
 #include "stdafx.h"
+#include <jni.h>
 #include "helloWindow.h"
-#include "jni.h"
 
 JNIEXPORT jint JNICALL Java_helloWindow_add
 (JNIEnv *, jobject obj, jint value1, jint value2){

@@ -8,10 +8,7 @@
 1.类文件找不到错误：
 scalac编译好scala成class后，javah生成head文件会报错：
 
-D:\all\idea\HelloWorldJNIwithRegisterNatives-master\src\main\scala>javah 
-
--classp
-ath D:/1win7/scala/lib;. -jni helloWindow
+	D:\all\idea\HelloWorldJNIwithRegisterNatives-master\src\main\scala>javah -classpath D:/1win7/scala/lib;. -jni helloWindow
 无法找到类型 'scala.reflect.ScalaSignature' 的注释方法 'bytes()': 找不到
 
 scala.re

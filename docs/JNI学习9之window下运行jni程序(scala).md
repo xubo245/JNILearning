@@ -1,6 +1,6 @@
 更多代码请见：https://github.com/xubo245/JNILearning
 
-1.新建scala文件helloWindow。scala：
+1.新建scala文件helloWindow.scala：
 	
 	/**
 	  * Created by xubo on 2016/6/22.
@@ -101,8 +101,23 @@ vs2013下新建win32项目，dll：使用请参考《JNI学习5之window下运�
 
 5.运行：
 
+## 5.1 命令行 不知道怎么用
+
 	hello, 5 + 5 = 10
 	hello scala 
 	Process finished with exit code 0
+
+## 5.2 在idea下运行：
+
+将dll复制到project的根目录下：
+
+配置
+
+![](http://i.imgur.com/9Kk3T2s.png)
+
+运行：
+
+![](http://i.imgur.com/7jyqaom.png)
+
 
 更多代码请见：https://github.com/xubo245/JNILearning
