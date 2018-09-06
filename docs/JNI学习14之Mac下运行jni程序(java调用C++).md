@@ -124,7 +124,9 @@ HelloWorld.h：
 	drwxr-xr-x  3 xubo  staff    96B Sep  6 11:39 com
 	localhost:java xubo$ 
 
+也可以在IDEA中运行代码，不过得在VM options加入：
 
+	-Djava.library.path=/Users/xubo/Desktop/xubo/git/c/CCallJava/src/main/java
 
 
 
