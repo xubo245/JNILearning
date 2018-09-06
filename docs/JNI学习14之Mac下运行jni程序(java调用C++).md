@@ -1,12 +1,12 @@
 JNI学习14之Mac下运行jni程序(java调用C++)
 
-##1.环境准备
+## 1.环境准备
 
 	Itellij IDEA
 	CLion:CLion-2018.2.2.dmg
 	Java:1.8
 
-##2.创建一个java文件（HelloWorld.java）:
+## 2.创建一个java文件（HelloWorld.java）:
 
 	class HelloWorld {
 		static {
@@ -19,10 +19,10 @@ JNI学习14之Mac下运行jni程序(java调用C++)
 		
 	}
 
-##3、使用javac命令编译该java文件，在终端输入"javac HelloWorld.java"。生成HelloWorld.class.
+## 3、使用javac命令编译该java文件，在终端输入"javac HelloWorld.java"。生成HelloWorld.class.
 
 
-##4、使用javah命令生成头文件。在终端输入"javah -jni HelloWorld", 生成HelloWorld.h
+## 4、使用javah命令生成头文件。在终端输入"javah -jni HelloWorld", 生成HelloWorld.h
 
 HelloWorld.h：
 
@@ -48,7 +48,7 @@ HelloWorld.h：
 	#endif
 	#endif
 
-##5、使用本地方法实现头文件中的方法。  
+## 5、使用本地方法实现头文件中的方法。  
    需要处理下include：在CMakeLists.txt通过include_directories加入java的h文件，包括include和include/darwin，以及前面生成的h文件路径
 
    
@@ -76,7 +76,7 @@ HelloWorld.h：
 	        return;  
 	} 
 
-##6.用gcc编译生成so文件:
+## 6.用gcc编译生成so文件:
 
 	 gcc -dynamiclib -I $JAVA_HOME/include -I $JAVA_HOME/include/darwin HelloWorld.cpp -o libHelloWorld.jnilib
 需要在本地配置好Java_HOME：
@@ -103,7 +103,7 @@ HelloWorld.h：
 
 	localhost:test xubo$  cp libHelloWorld.jnilib /Users/xubo/Desktop/xubo/git/c/CCallJava/src/main/java/
 
-##7、运行：
+## 7、运行：
 
 指令：
 
