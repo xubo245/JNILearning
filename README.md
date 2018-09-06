@@ -11,8 +11,9 @@ JAVA本地方法包含window和linux下的运行样例。
 # 1 Java：
 
 [JNI学习5之window下运行jni程序(java)](docs/JNI学习5之window下运行jni程序(java).md)  
-[JNI学习6之linux下运行jni程序(java)](docs/JNI学习6之linux下运行jni程序(java).md)
-	
+[JNI学习6之linux下运行jni程序(java)](docs/JNI学习6之linux下运行jni程序(java).md)  
+[JNI学习14之Mac下运行jni程序(java调用C++)](docs/JNI学习14之Mac下运行jni程序(java调用C++).md)
+
 
 # 2Scala：
 

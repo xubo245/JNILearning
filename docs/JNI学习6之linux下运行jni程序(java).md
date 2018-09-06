@@ -52,17 +52,17 @@ HelloWorld.h：
 
 4、使用本地方法实现头文件中的方法。
 
-HelloWorld.c：
-
-#include <jni.h>  
-#include <stdio.h>  
-#include "HelloWorld.h"  
-JNIEXPORT void JNICALL Java_HelloWorld_print  
-  (JNIEnv *env, jobject obj)  
-{  
-        printf("HelloWorld JNI!/n");  
-        return;  
-} 
+	HelloWorld.c：
+	
+	#include <jni.h>  
+	#include <stdio.h>  
+	#include "HelloWorld.h"  
+	JNIEXPORT void JNICALL Java_HelloWorld_print  
+	  (JNIEnv *env, jobject obj)  
+	{  
+	        printf("HelloWorld JNI!/n");  
+	        return;  
+	} 
 
 5.用gcc编译生成so文件:
 
